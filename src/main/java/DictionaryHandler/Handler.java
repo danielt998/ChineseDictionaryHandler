@@ -26,12 +26,12 @@ import java.io.File;
   also,** multiple words have same pinyin** - for themoment, this will return only the first result
   Capitals are causing issues too...
 */
-public class DictionaryHandler{
+public class Handler{
   private static final String DEFAULT_DICTIONARY_FILENAME= "../res/cedict_ts.u8";
   private static final char COMMENT_CHARACTER='#';
   private Map<String,Word> simplifiedMapping = new HashMap<String,Word>();
   private Map<String,Word> traditionalMapping = new HashMap<String,Word>();
-  public DictionaryHandler(){
+  public Handler(){
     readInDictionary();
   }
   public  void readInDictionary(){
