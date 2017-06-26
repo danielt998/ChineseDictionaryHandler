@@ -8,3 +8,4 @@
 .~lock*
 #gradle stuff
 build/**
+.gradle/**
