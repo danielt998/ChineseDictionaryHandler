@@ -27,7 +27,7 @@ import java.io.File;
   Capitals are causing issues too...
 */
 public class Handler{
-  private static final String DEFAULT_DICTIONARY_FILENAME= "../res/cedict_ts.u8";
+  private static final String DEFAULT_DICTIONARY_FILENAME= "../../resources/cedict_ts.u8";
   private static final char COMMENT_CHARACTER='#';
   private Map<String,Word> simplifiedMapping = new HashMap<String,Word>();
   private Map<String,Word> traditionalMapping = new HashMap<String,Word>();
